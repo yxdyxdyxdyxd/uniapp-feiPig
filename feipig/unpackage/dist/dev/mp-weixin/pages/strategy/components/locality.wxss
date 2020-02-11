@@ -1,0 +1,36 @@
+.loaclity .title {
+  margin: 0 20rpx;
+  color: #292c33;
+  font-size: 50rpx;
+}
+.loaclity .menu-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.loaclity .menu-block view {
+  background: #ffffff;
+  border: 1px solid #c2c5cc;
+  border-radius: 6rpx;
+  font-size: 25rpx;
+  color: #292c33;
+  font-weight: bold;
+  text-align: center;
+  padding: 15rpx;
+  margin: 20rpx;
+}
+.loaclity .activetext {
+  color: #4cd964;
+  background: #ffdd00 !important;
+  border: 1px solid #ffdd00 !important;
+}
+

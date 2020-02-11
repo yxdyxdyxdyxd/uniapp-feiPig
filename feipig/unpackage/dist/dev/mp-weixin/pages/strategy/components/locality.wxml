@@ -1,0 +1,1 @@
+<view class="loaclity"><view class="title">当地必体验</view><view class="menu-block"><block wx:for="{{citytab}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['menuActive',[index,'$0'],[[['citytab','',index,'name']]]]]]]}}" class="{{[(index==num)?'activetext':'']}}" bindtap="__e">{{item.name}}</view></block></view></view>

@@ -1,0 +1,1 @@
+<view><view class="table"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="__i0__" wx:key="tick"><block><view class="list"><text class="title">{{item.tick}}</text><text class="nametext">{{item.nametext}}</text></view></block></block></view></view>

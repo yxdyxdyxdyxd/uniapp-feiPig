@@ -1,0 +1,30 @@
+.home-loder {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  overflow: hidden;
+  background: rgba(242, 243, 244, 0.6);
+}
+.home-loder .home-img {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.home-loder .home-img image {
+  width: 200rpx;
+  height: 200rpx;
+  background: #000000;
+  border-radius: 10rpx;
+}
+

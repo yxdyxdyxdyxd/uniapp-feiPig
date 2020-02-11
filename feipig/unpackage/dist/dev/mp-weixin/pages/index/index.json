@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "飞猪旅游",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "seach": "/pages/index/components/seach",
+    "table": "/pages/index/components/table",
+    "scroll": "/pages/index/components/scroll",
+    "list": "/pages/index/components/list",
+    "uni-load-more": "/node-modules/@dcloudio/uni-ui/lib/uni-load-more/uni-load-more"
+  }
+}

@@ -1,0 +1,16 @@
+.home .load-more {
+  height: 60rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.home .is_fixed {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+

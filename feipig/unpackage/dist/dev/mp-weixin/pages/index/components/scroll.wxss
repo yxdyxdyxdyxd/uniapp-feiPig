@@ -1,0 +1,32 @@
+.scroll-title .scroll {
+  white-space: nowrap;
+  width: 100%;
+  position: relative;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  padding: 20rpx 0;
+}
+.scroll-title .tab-list {
+  width: 180rpx;
+  display: inline-block;
+  text-align: center;
+}
+.scroll-title .name {
+  color: #292c33;
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.scroll-title .title {
+  color: #9ea0a5;
+  font-size: 23rpx;
+}
+.scroll-title .activea {
+  background-image: -webkit-linear-gradient(left, #ccffff 0%, #ffcc00 100%);
+  background-image: linear-gradient(to right, #ccffff 0%, #ffcc00 100%);
+  border-top-right-radius: 50rpx;
+}
+.scroll-title .activeb {
+  color: #292c33 !important;
+}
+

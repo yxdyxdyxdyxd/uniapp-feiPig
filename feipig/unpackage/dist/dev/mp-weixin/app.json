@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/strategy/strategy",
+    "pages/mine/mine"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#ffd300",
+    "backgroundColor": "#ffd300"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#F76E15",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/list.png",
+        "selectedIconPath": "static/listb.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/strategy/strategy",
+        "iconPath": "static/gonglvea.png",
+        "selectedIconPath": "static/gonglveb.png",
+        "text": "攻略"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/wodea.png",
+        "selectedIconPath": "static/wodeb.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "homeloader": "/components/homeLoder",
+    "loader": "/components/loder"
+  }
+}
